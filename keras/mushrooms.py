@@ -4,6 +4,11 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
+import coremltools
+
 #1.Read the mushrooms dataset
 dataset = pd.read_csv('mushrooms.csv')
 
@@ -109,3 +114,16 @@ model.add(Dense(1, activation='sigmoid'))
 #7. Compile and train model
 model.compile(loss='binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 model.fit(X_train,y_train,epochs=20, batch_size = 10, validation_data = (X_test,y_test))
+
+#8.Save to file
+model.save("model.h5")
+
+#9. Convert model to CoreML
+coreml_model = coremltools.converters.tensorflow.convert("model.h5")
+
+#10. Model methadata
+coreml_model.author = 'Sergio Ordine'
+coreml_model.short_description = 'Mushroom edible or poisonous classifier'
+
+#11. Save CoreML model
+coreml_model.save('mushroom.mlmodel')
