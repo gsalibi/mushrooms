@@ -116,14 +116,14 @@ model.compile(loss='binary_crossentropy', optimizer = 'adam', metrics = ['accura
 model.fit(X_train,y_train,epochs=20, batch_size = 10, validation_data = (X_test,y_test))
 
 #8.Save to file
-model.save("model.h5")
+model.save("mushrooms.h5")
 
 #9. Convert model to CoreML
-coreml_model = coremltools.converters.tensorflow.convert("model.h5")
+coreml_model = coremltools.converters.tensorflow.convert("mushrooms.h5")
 
 #10. Model methadata
 coreml_model.author = 'Sergio Ordine'
 coreml_model.short_description = 'Mushroom edible or poisonous classifier'
 
 #11. Save CoreML model
-coreml_model.save('mushroom.mlmodel')
+coreml_model.save('mushrooms.mlmodel')
