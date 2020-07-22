@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
+
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
 
 #1.Read the mushrooms dataset
 dataset = pd.read_csv('mushrooms.csv')
@@ -91,5 +93,19 @@ print("habitat")
 labelEncode(X,21,7)
 
 #4. Fix columns that has a boolean set of values.
-X = np.asarray(X).astype(np.float32)
-y = np.asarray(y).astype(np.float32)
+X = X.astype(np.float32)
+y = y.astype(np.float32)
+
+#5. Split data into traingin and test sets
+X_train,X_test,y_train,y_test = train_test_split(X,y,
+    test_size = 0.25, random_state = 0)
+
+#6. FNN model
+model = Sequential()
+model.add(Dense(12,input_dim=22, activation='relu'))
+model.add(Dense(8, activation='relu'))
+model.add(Dense(1, activation='sigmoid'))
+
+#7. Compile and train model
+model.compile(loss='binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
+model.fit(X_train,y_train,epochs=20, batch_size = 10, validation_data = (X_test,y_test))
