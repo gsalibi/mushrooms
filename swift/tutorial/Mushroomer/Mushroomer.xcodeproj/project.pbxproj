@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491797EC24C8D943005B4079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491797EB24C8D943005B4079 /* AppDelegate.swift */; };
+		491797EE24C8D943005B4079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491797ED24C8D943005B4079 /* SceneDelegate.swift */; };
+		491797F024C8D943005B4079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491797EF24C8D943005B4079 /* ViewController.swift */; };
+		491797F324C8D943005B4079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491797F124C8D943005B4079 /* Main.storyboard */; };
+		491797F524C8D944005B4079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491797F424C8D944005B4079 /* Assets.xcassets */; };
+		491797F824C8D944005B4079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491797F624C8D944005B4079 /* LaunchScreen.storyboard */; };
+		4917980324C8D944005B4079 /* MushroomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917980224C8D944005B4079 /* MushroomerTests.swift */; };
+		4917980E24C8D944005B4079 /* MushroomerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917980D24C8D944005B4079 /* MushroomerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		491797FF24C8D944005B4079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491797E024C8D943005B4079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491797E724C8D943005B4079;
+			remoteInfo = Mushroomer;
+		};
+		4917980A24C8D944005B4079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491797E024C8D943005B4079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491797E724C8D943005B4079;
+			remoteInfo = Mushroomer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491797E824C8D943005B4079 /* Mushroomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushroomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491797EB24C8D943005B4079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491797ED24C8D943005B4079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		491797EF24C8D943005B4079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		491797F224C8D943005B4079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491797F424C8D944005B4079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491797F724C8D944005B4079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491797F924C8D944005B4079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491797FE24C8D944005B4079 /* MushroomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4917980224C8D944005B4079 /* MushroomerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomerTests.swift; sourceTree = "<group>"; };
+		4917980424C8D944005B4079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4917980924C8D944005B4079 /* MushroomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4917980D24C8D944005B4079 /* MushroomerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomerUITests.swift; sourceTree = "<group>"; };
+		4917980F24C8D944005B4079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491797E524C8D943005B4079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491797FB24C8D944005B4079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4917980624C8D944005B4079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491797DF24C8D943005B4079 = {
+			isa = PBXGroup;
+			children = (
+				491797EA24C8D943005B4079 /* Mushroomer */,
+				4917980124C8D944005B4079 /* MushroomerTests */,
+				4917980C24C8D944005B4079 /* MushroomerUITests */,
+				491797E924C8D943005B4079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491797E924C8D943005B4079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491797E824C8D943005B4079 /* Mushroomer.app */,
+				491797FE24C8D944005B4079 /* MushroomerTests.xctest */,
+				4917980924C8D944005B4079 /* MushroomerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491797EA24C8D943005B4079 /* Mushroomer */ = {
+			isa = PBXGroup;
+			children = (
+				491797EB24C8D943005B4079 /* AppDelegate.swift */,
+				491797ED24C8D943005B4079 /* SceneDelegate.swift */,
+				491797EF24C8D943005B4079 /* ViewController.swift */,
+				491797F124C8D943005B4079 /* Main.storyboard */,
+				491797F424C8D944005B4079 /* Assets.xcassets */,
+				491797F624C8D944005B4079 /* LaunchScreen.storyboard */,
+				491797F924C8D944005B4079 /* Info.plist */,
+			);
+			path = Mushroomer;
+			sourceTree = "<group>";
+		};
+		4917980124C8D944005B4079 /* MushroomerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4917980224C8D944005B4079 /* MushroomerTests.swift */,
+				4917980424C8D944005B4079 /* Info.plist */,
+			);
+			path = MushroomerTests;
+			sourceTree = "<group>";
+		};
+		4917980C24C8D944005B4079 /* MushroomerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4917980D24C8D944005B4079 /* MushroomerUITests.swift */,
+				4917980F24C8D944005B4079 /* Info.plist */,
+			);
+			path = MushroomerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491797E724C8D943005B4079 /* Mushroomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4917981224C8D944005B4079 /* Build configuration list for PBXNativeTarget "Mushroomer" */;
+			buildPhases = (
+				491797E424C8D943005B4079 /* Sources */,
+				491797E524C8D943005B4079 /* Frameworks */,
+				491797E624C8D943005B4079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mushroomer;
+			productName = Mushroomer;
+			productReference = 491797E824C8D943005B4079 /* Mushroomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491797FD24C8D944005B4079 /* MushroomerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4917981524C8D944005B4079 /* Build configuration list for PBXNativeTarget "MushroomerTests" */;
+			buildPhases = (
+				491797FA24C8D944005B4079 /* Sources */,
+				491797FB24C8D944005B4079 /* Frameworks */,
+				491797FC24C8D944005B4079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4917980024C8D944005B4079 /* PBXTargetDependency */,
+			);
+			name = MushroomerTests;
+			productName = MushroomerTests;
+			productReference = 491797FE24C8D944005B4079 /* MushroomerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4917980824C8D944005B4079 /* MushroomerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4917981824C8D944005B4079 /* Build configuration list for PBXNativeTarget "MushroomerUITests" */;
+			buildPhases = (
+				4917980524C8D944005B4079 /* Sources */,
+				4917980624C8D944005B4079 /* Frameworks */,
+				4917980724C8D944005B4079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4917980B24C8D944005B4079 /* PBXTargetDependency */,
+			);
+			name = MushroomerUITests;
+			productName = MushroomerUITests;
+			productReference = 4917980924C8D944005B4079 /* MushroomerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491797E024C8D943005B4079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "SERGIO J RAFAEL ORDINE";
+				TargetAttributes = {
+					491797E724C8D943005B4079 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					491797FD24C8D944005B4079 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 491797E724C8D943005B4079;
+					};
+					4917980824C8D944005B4079 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 491797E724C8D943005B4079;
+					};
+				};
+			};
+			buildConfigurationList = 491797E324C8D943005B4079 /* Build configuration list for PBXProject "Mushroomer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491797DF24C8D943005B4079;
+			productRefGroup = 491797E924C8D943005B4079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491797E724C8D943005B4079 /* Mushroomer */,
+				491797FD24C8D944005B4079 /* MushroomerTests */,
+				4917980824C8D944005B4079 /* MushroomerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491797E624C8D943005B4079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491797F824C8D944005B4079 /* LaunchScreen.storyboard in Resources */,
+				491797F524C8D944005B4079 /* Assets.xcassets in Resources */,
+				491797F324C8D943005B4079 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491797FC24C8D944005B4079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4917980724C8D944005B4079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491797E424C8D943005B4079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491797F024C8D943005B4079 /* ViewController.swift in Sources */,
+				491797EC24C8D943005B4079 /* AppDelegate.swift in Sources */,
+				491797EE24C8D943005B4079 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491797FA24C8D944005B4079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4917980324C8D944005B4079 /* MushroomerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4917980524C8D944005B4079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4917980E24C8D944005B4079 /* MushroomerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4917980024C8D944005B4079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491797E724C8D943005B4079 /* Mushroomer */;
+			targetProxy = 491797FF24C8D944005B4079 /* PBXContainerItemProxy */;
+		};
+		4917980B24C8D944005B4079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491797E724C8D943005B4079 /* Mushroomer */;
+			targetProxy = 4917980A24C8D944005B4079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		491797F124C8D943005B4079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491797F224C8D943005B4079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491797F624C8D944005B4079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491797F724C8D944005B4079 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4917981024C8D944005B4079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4917981124C8D944005B4079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4917981324C8D944005B4079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = Mushroomer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.Mushroomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4917981424C8D944005B4079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = Mushroomer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.Mushroomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4917981624C8D944005B4079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = MushroomerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.MushroomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mushroomer.app/Mushroomer";
+			};
+			name = Debug;
+		};
+		4917981724C8D944005B4079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = MushroomerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.MushroomerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mushroomer.app/Mushroomer";
+			};
+			name = Release;
+		};
+		4917981924C8D944005B4079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = MushroomerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.MushroomerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mushroomer;
+			};
+			name = Debug;
+		};
+		4917981A24C8D944005B4079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6J4M45K4J;
+				INFOPLIST_FILE = MushroomerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.ordine.sergio.MushroomerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mushroomer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491797E324C8D943005B4079 /* Build configuration list for PBXProject "Mushroomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4917981024C8D944005B4079 /* Debug */,
+				4917981124C8D944005B4079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4917981224C8D944005B4079 /* Build configuration list for PBXNativeTarget "Mushroomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4917981324C8D944005B4079 /* Debug */,
+				4917981424C8D944005B4079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4917981524C8D944005B4079 /* Build configuration list for PBXNativeTarget "MushroomerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4917981624C8D944005B4079 /* Debug */,
+				4917981724C8D944005B4079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4917981824C8D944005B4079 /* Build configuration list for PBXNativeTarget "MushroomerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4917981924C8D944005B4079 /* Debug */,
+				4917981A24C8D944005B4079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491797E024C8D943005B4079 /* Project object */;
+}
