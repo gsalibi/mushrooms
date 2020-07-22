@@ -15,6 +15,7 @@
 		491797F824C8D944005B4079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491797F624C8D944005B4079 /* LaunchScreen.storyboard */; };
 		4917980324C8D944005B4079 /* MushroomerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917980224C8D944005B4079 /* MushroomerTests.swift */; };
 		4917980E24C8D944005B4079 /* MushroomerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917980D24C8D944005B4079 /* MushroomerUITests.swift */; };
+		4917981E24C8DB5E005B4079 /* Mushrooms.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4917981D24C8DB5E005B4079 /* Mushrooms.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4917980924C8D944005B4079 /* MushroomerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4917980D24C8D944005B4079 /* MushroomerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomerUITests.swift; sourceTree = "<group>"; };
 		4917980F24C8D944005B4079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4917981D24C8DB5E005B4079 /* Mushrooms.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mushrooms.mlmodel; path = ../../../../keras/Mushrooms.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		491797EA24C8D943005B4079 /* Mushroomer */ = {
 			isa = PBXGroup;
 			children = (
+				4917981D24C8DB5E005B4079 /* Mushrooms.mlmodel */,
 				491797EB24C8D943005B4079 /* AppDelegate.swift */,
 				491797ED24C8D943005B4079 /* SceneDelegate.swift */,
 				491797EF24C8D943005B4079 /* ViewController.swift */,
@@ -261,6 +264,7 @@
 			files = (
 				491797F024C8D943005B4079 /* ViewController.swift in Sources */,
 				491797EC24C8D943005B4079 /* AppDelegate.swift in Sources */,
+				4917981E24C8DB5E005B4079 /* Mushrooms.mlmodel in Sources */,
 				491797EE24C8D943005B4079 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
