@@ -121,7 +121,7 @@ model.save("mushrooms.h5")
 #9. Convert model to CoreML
 coreml_model = coremltools.converters.tensorflow.convert("mushrooms.h5")
 
-#10. Model methadata
+#10. Model metadata
 coreml_model.author = 'Sergio Ordine'
 coreml_model.short_description = 'Mushroom edible or poisonous classifier'
 
