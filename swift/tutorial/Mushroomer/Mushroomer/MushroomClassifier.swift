@@ -41,6 +41,10 @@ struct MushroomClassifier {
         return mlMultiArray
     }
     
+    
+    /// Predict whether a mushroom is poisonous or not based on its features
+    /// - Parameter sample: Features of a givem sample
+    /// - Returns: Wether the mushroom is poisonous or edible  and the cofidence of this prediction
     func predict(_ sample:[Int]) -> MushroomClassification {
         //1. Convert input array to MLMultiArray and create the Model Input
         let inputVector = createMultiArray(sample)
@@ -60,6 +64,15 @@ struct MushroomClassifier {
                                       type: mushroomType)
         
         
+    }
+    
+    /// Predict whether a mushroom is poisonous or not based on its features
+    /// - Parameter sample: Features of a givem sample
+    /// - Returns: Wether the mushroom is poisonous or edible  and the cofidence of this prediction
+    func predict(_ sample:[String]) -> MushroomClassification {
+        let attributeSample = MushroomUtil.convert(attributes: sample)
+        let intSample = attributeSample.map {$0.rawValue}
+        return predict(intSample)
     }
     
     

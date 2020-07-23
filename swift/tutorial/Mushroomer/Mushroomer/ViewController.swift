@@ -32,6 +32,15 @@ class ViewController: UIViewController {
       2,1
     ]
     
+    //Result:p
+    let sample1 = ["x","y","w","t","p","f","c","n","k","e",
+                   "e","s","s","w","w","p","w","o","p","n",
+                   "s","u"]
+    //Result: e
+    let sample2 = ["x","y","y","t","l","f","c","b","n","e",
+                   "c","s","s","w","w","p","w","o","p","n",
+                   "n","m"]
+    
     var classifier = MushroomClassifier()
     
 
@@ -48,6 +57,12 @@ class ViewController: UIViewController {
         print(prediction)
         
         prediction = classifier.predict(testE)
+        print(prediction)
+        
+        prediction = classifier.predict(sample1)
+        print(prediction)
+        
+        prediction = classifier.predict(sample2)
         print(prediction)
         
     }
