@@ -17,6 +17,8 @@
 		4917980E24C8D944005B4079 /* MushroomerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917980D24C8D944005B4079 /* MushroomerUITests.swift */; };
 		4917981E24C8DB5E005B4079 /* Mushrooms.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4917981D24C8DB5E005B4079 /* Mushrooms.mlmodel */; };
 		4917982024C9AFC7005B4079 /* MushroomClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917981F24C9AFC7005B4079 /* MushroomClassifier.swift */; };
+		4917982224C9F725005B4079 /* MushroomUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917982124C9F725005B4079 /* MushroomUtil.swift */; };
+		4917982424C9F757005B4079 /* MushroomAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917982324C9F757005B4079 /* MushroomAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4917980F24C8D944005B4079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4917981D24C8DB5E005B4079 /* Mushrooms.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mushrooms.mlmodel; path = ../../../../keras/Mushrooms.mlmodel; sourceTree = "<group>"; };
 		4917981F24C9AFC7005B4079 /* MushroomClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomClassifier.swift; sourceTree = "<group>"; };
+		4917982124C9F725005B4079 /* MushroomUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomUtil.swift; sourceTree = "<group>"; };
+		4917982324C9F757005B4079 /* MushroomAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				491797F624C8D944005B4079 /* LaunchScreen.storyboard */,
 				491797F924C8D944005B4079 /* Info.plist */,
 				4917981F24C9AFC7005B4079 /* MushroomClassifier.swift */,
+				4917982124C9F725005B4079 /* MushroomUtil.swift */,
+				4917982324C9F757005B4079 /* MushroomAttributes.swift */,
 			);
 			path = Mushroomer;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				491797F024C8D943005B4079 /* ViewController.swift in Sources */,
+				4917982424C9F757005B4079 /* MushroomAttributes.swift in Sources */,
 				491797EC24C8D943005B4079 /* AppDelegate.swift in Sources */,
 				4917982024C9AFC7005B4079 /* MushroomClassifier.swift in Sources */,
+				4917982224C9F725005B4079 /* MushroomUtil.swift in Sources */,
 				4917981E24C8DB5E005B4079 /* Mushrooms.mlmodel in Sources */,
 				491797EE24C8D943005B4079 /* SceneDelegate.swift in Sources */,
 			);
