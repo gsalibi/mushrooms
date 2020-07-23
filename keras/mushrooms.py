@@ -126,4 +126,4 @@ coreml_model.author = 'Sergio Ordine'
 coreml_model.short_description = 'Mushroom edible or poisonous classifier'
 
 #11. Save CoreML model
-coreml_model.save('mushrooms.mlmodel')
+coreml_model.save('Mushrooms.mlmodel')
